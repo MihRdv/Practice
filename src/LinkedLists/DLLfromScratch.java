@@ -102,7 +102,7 @@ class DoublyLinkedList{
 
 }
 
-public class DLLpractice {
+public class DLLfromScratch {
     public static void main(String[] args) {
         DoublyLinkedList dll = new DoublyLinkedList();
 

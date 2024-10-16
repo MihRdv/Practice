@@ -74,7 +74,7 @@ class SinglyLinkedList{
     }
 }
 
-public class SinglyLinkedListPractice {
+public class SLLfromScratch {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
