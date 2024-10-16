@@ -1,26 +1,26 @@
 package LinkedLists;
 
-class Node {
+class SLLNode {
     int data;
-    Node next;
+    SLLNode next;
 
     // Constructor
-    public Node(int data) {
+    public SLLNode(int data) {
         this.data = data;
         this.next = null;
     }
 }
 
 class SinglyLinkedList{
-    private Node head;
+    private SLLNode head;
 
     public void insertAtEnd(int data){
-        Node newNode = new Node(data);
+        SLLNode newNode = new SLLNode(data);
 
         if(head == null){
             head = newNode;
         } else {
-            Node current = head;
+            SLLNode current = head;
             while(current.next != null){
                 current = current.next;
             }
@@ -29,7 +29,7 @@ class SinglyLinkedList{
     }
 
     public void insertAtStart(int data){
-        Node newNode = new Node(data);
+        SLLNode newNode = new SLLNode(data);
 
         newNode.next = head;
         head = newNode;
@@ -44,7 +44,7 @@ class SinglyLinkedList{
             return;
         }
 
-        Node current = head;
+        SLLNode current = head;
         while (current.next != null && current.next.data != data) {
             current = current.next;  // Move to the next node
         }
@@ -65,7 +65,7 @@ class SinglyLinkedList{
         }
 
         // Traverse the list and print each node's data
-        Node current = head;
+        SLLNode current = head;
         while (current != null) {
             System.out.print(current.data + " -> ");  // Print the current node's data
             current = current.next;  // Move to the next node
@@ -74,7 +74,7 @@ class SinglyLinkedList{
     }
 }
 
-public class LinkedLists {
+public class SinglyLinkedListPractice {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
 
