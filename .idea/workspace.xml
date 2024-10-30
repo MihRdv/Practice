@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Did the weekly SlothBytes challenge">
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Played with data manipulation in lists. Made a course planner.">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/KadaneAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DLLpractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimonSays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basicTasks.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Misc/java/Practice/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DLLpractice.executor": "Run",
+    "Application.KadaneAlgorithm.executor": "Debug",
+    "Application.LinkedLists.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
+    "Application.SimonSays.executor": "Run",
+    "Application.basicTasks.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Misc/java/Practice/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729865201228</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Played with data manipulation in lists. Made a course planner.">
+      <option name="closed" value="true" />
+      <created>1729966275657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729966275657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +129,22 @@
     <MESSAGE value="Created a doubly linked list too in order to understand the fundamentals of how they work better" />
     <MESSAGE value="Renamed the tasks so far for some clarity" />
     <MESSAGE value="Did the weekly SlothBytes challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did the weekly SlothBytes challenge" />
+    <MESSAGE value="Played with data manipulation in lists. Made a course planner." />
+    <option name="LAST_COMMIT_MESSAGE" value="Played with data manipulation in lists. Made a course planner." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Algorithms/KadaneAlgorithm.java</url>
+          <line>3</line>
+          <properties class="Algorithms.KadaneAlgorithm" method="maxSubarraySum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
