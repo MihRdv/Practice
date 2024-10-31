@@ -14,7 +14,6 @@ public class IndexesOfSubarraySum {
         int n = arr.length;
         int start = 0;
         long currentSum = 0;
-        boolean flag = false;
         ArrayList<Integer> result = new ArrayList<>();
 
         // Iterate over the array
