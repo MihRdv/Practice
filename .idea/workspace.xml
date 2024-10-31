@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Played with data manipulation in lists. Made a course planner.">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/KadaneAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MissingNumber.java" afterDir="false" />
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Practiced fixed sliding window technique">
+      <change afterPath="$PROJECT_DIR$/src/Methods/IndexesOfSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +48,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DLLpractice.executor": "Run",
+    "Application.IndexesOfSubarraySum.executor": "Run",
     "Application.KadaneAlgorithm.executor": "Debug",
     "Application.LinkedLists.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.SimonSays.executor": "Run",
+    "Application.SlidingWindow.executor": "Run",
     "Application.basicTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -110,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729966275657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Practiced fixed sliding window technique">
+      <option name="closed" value="true" />
+      <created>1730363043879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730363043879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +139,8 @@
     <MESSAGE value="Renamed the tasks so far for some clarity" />
     <MESSAGE value="Did the weekly SlothBytes challenge" />
     <MESSAGE value="Played with data manipulation in lists. Made a course planner." />
-    <option name="LAST_COMMIT_MESSAGE" value="Played with data manipulation in lists. Made a course planner." />
+    <MESSAGE value="Practiced fixed sliding window technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced fixed sliding window technique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
