@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Practiced fixed sliding window technique">
-      <change afterPath="$PROJECT_DIR$/src/Methods/IndexesOfSubarraySum.java" afterDir="false" />
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Used a non fixed sliding window technique">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/DuplicateArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DLLpractice.executor": "Run",
+    "Application.DuplicateArrays.executor": "Run",
     "Application.IndexesOfSubarraySum.executor": "Run",
     "Application.KadaneAlgorithm.executor": "Debug",
     "Application.LinkedLists.executor": "Run",
@@ -119,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730363043879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Used a non fixed sliding window technique">
+      <option name="closed" value="true" />
+      <created>1730367033977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730367033977</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Used a non fixed sliding window technique">
+      <option name="closed" value="true" />
+      <created>1730367066450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730367066450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +157,8 @@
     <MESSAGE value="Did the weekly SlothBytes challenge" />
     <MESSAGE value="Played with data manipulation in lists. Made a course planner." />
     <MESSAGE value="Practiced fixed sliding window technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practiced fixed sliding window technique" />
+    <MESSAGE value="Used a non fixed sliding window technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used a non fixed sliding window technique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
