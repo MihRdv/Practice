@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Used a non fixed sliding window technique">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DuplicateArrays.java" afterDir="false" />
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Practiced actions with arrays">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SecondLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.KadaneAlgorithm.executor": "Debug",
     "Application.LinkedLists.executor": "Run",
     "Application.MissingNumber.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
     "Application.SimonSays.executor": "Run",
     "Application.SlidingWindow.executor": "Run",
     "Application.basicTasks.executor": "Run",
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730367066450</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Practiced actions with arrays">
+      <option name="closed" value="true" />
+      <created>1730382126482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730382126482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +167,8 @@
     <MESSAGE value="Played with data manipulation in lists. Made a course planner." />
     <MESSAGE value="Practiced fixed sliding window technique" />
     <MESSAGE value="Used a non fixed sliding window technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used a non fixed sliding window technique" />
+    <MESSAGE value="Practiced actions with arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced actions with arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -171,6 +181,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/SecondLargest.java</url>
+          <line>8</line>
+          <properties class="Arrays.SecondLargest" method="findSecondLargest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
