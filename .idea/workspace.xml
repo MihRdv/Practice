@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Implemented a dynamic array structure from scratch">
-      <change afterPath="$PROJECT_DIR$/src/SearchSort/BinarySearch.java" afterDir="false" />
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Practiced quick sort">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherDS/HashTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,28 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinarySearch.executor": "Run",
-    "Application.DLLpractice.executor": "Run",
-    "Application.DuplicateArrays.executor": "Run",
-    "Application.DynamicArray.executor": "Run",
-    "Application.IndexesOfSubarraySum.executor": "Run",
-    "Application.KadaneAlgorithm.executor": "Debug",
-    "Application.LinkedLists.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.SecondLargest.executor": "Run",
-    "Application.SimonSays.executor": "Run",
-    "Application.SlidingWindow.executor": "Run",
-    "Application.Stack.executor": "Run",
-    "Application.basicTasks.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Misc/java/Practice/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DLLpractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashTables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IndexesOfSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadaneAlgorithm.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimonSays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Misc/java/Practice/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,7 +180,47 @@
       <option name="project" value="LOCAL" />
       <updated>1730537153012</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Practiced basic binary search">
+      <option name="closed" value="true" />
+      <created>1730749171326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730749171326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Practiced bubble sort">
+      <option name="closed" value="true" />
+      <created>1730829451289</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730829451289</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Practiced selection sort">
+      <option name="closed" value="true" />
+      <created>1730830873283</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730830873283</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Practiced merge sort">
+      <option name="closed" value="true" />
+      <created>1730915619738</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730915619738</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Practiced quick sort">
+      <option name="closed" value="true" />
+      <created>1730998842654</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730998842654</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +246,12 @@
     <MESSAGE value="Found second largest element in an array using TreeSet" />
     <MESSAGE value="Implemented a stack data structure from scratch" />
     <MESSAGE value="Implemented a dynamic array structure from scratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented a dynamic array structure from scratch" />
+    <MESSAGE value="Practiced basic binary search" />
+    <MESSAGE value="Practiced bubble sort" />
+    <MESSAGE value="Practiced selection sort" />
+    <MESSAGE value="Practiced merge sort" />
+    <MESSAGE value="Practiced quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced quick sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
