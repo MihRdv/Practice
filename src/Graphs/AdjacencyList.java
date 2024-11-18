@@ -3,6 +3,7 @@ package Graphs;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 public class AdjacencyList {
 
@@ -73,6 +74,36 @@ public class AdjacencyList {
         }
     }
 
+    public void iterativeDFS(String source){
+        if(!nodeNames.contains(source)){
+            throw new IllegalArgumentException("Source node does not exist");
+        }
+
+        List<String> visited = new ArrayList<>();
+        Stack<String> stack = new Stack<>();
+        stack.push(source);
+
+        while(!stack.isEmpty()){
+
+            String currentNode = stack.pop();
+
+            if(!visited.contains(currentNode)){
+                visited.add(currentNode);
+                System.out.println(currentNode + " ");
+
+                int index = nodeNames.indexOf(currentNode);
+                LinkedList<String> neighbours = adjacencyList.get(index);
+
+                for (int i = neighbours.size() - 1; i >= 0 ; i--) {
+                    String neighbour = neighbours.get(i);
+                    if (!visited.contains(neighbour)) {
+                        stack.push(neighbour);
+                    }
+                }
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         AdjacencyList graph = new AdjacencyList();
@@ -82,26 +113,50 @@ public class AdjacencyList {
         graph.addNode("B");
         graph.addNode("C");
         graph.addNode("D");
+        graph.addNode("E");
+        graph.addNode("F");
+        graph.addNode("G");
+        graph.addNode("H");
+        graph.addNode("I");
+        graph.addNode("J");
+        graph.addNode("K");
+        graph.addNode("L");
+        graph.addNode("M");
+        graph.addNode("N");
 
         // Add edges
         graph.addEdge("A", "B");
         graph.addEdge("A", "C");
-        graph.addEdge("A","A");
-        graph.addEdge("B", "C");
-        graph.addEdge("C", "D");
+        graph.addEdge("I", "A");
+        graph.addEdge("B", "D");
+        graph.addEdge("B", "E");
+        graph.addEdge("C", "F");
+        graph.addEdge("C", "G");
+        graph.addEdge("D", "H");
+        graph.addEdge("E", "I");
+        graph.addEdge("F", "J");
+        graph.addEdge("G", "K");
+        graph.addEdge("H", "L");
+        graph.addEdge("I", "M");
+        graph.addEdge("J", "N");
+        graph.addEdge("L", "A"); // Edge to form a cycle
+        graph.addEdge("M", "C"); // Edge to form another cycle
 
         // Print initial graph
         System.out.println("Initial Graph:");
         graph.printList();
 
-        // Delete an edge
-        System.out.println("\nAfter deleting edge A -> C:");
-        graph.deleteEdge("A", "C");
-        graph.printList();
+//        // Delete an edge
+//        System.out.println("\nAfter deleting edge A -> C:");
+//        graph.deleteEdge("A", "C");
+//        graph.printList();
+//
+//        // Delete a node
+//        System.out.println("\nAfter deleting node B:");
+//        graph.deleteNode("B");
+//        graph.printList();
 
-        // Delete a node
-        System.out.println("\nAfter deleting node B:");
-        graph.deleteNode("B");
-        graph.printList();
+        System.out.println("DFS Starting at:");
+        graph.iterativeDFS("I");
     }
 }
