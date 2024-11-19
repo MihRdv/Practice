@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="hash table from scratch">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/AdjacencyMatrix.java" afterDir="false" />
+    <list default="true" id="9bdfe516-df13-47e8-8334-b6e9fe9c4d40" name="Changes" comment="Practiced using DFS using Adjacency list">
+      <change afterPath="$PROJECT_DIR$/src/Trees/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,37 +49,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdjacencyMatrix.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.DLLpractice.executor": "Run",
-    "Application.DuplicateArrays.executor": "Run",
-    "Application.DynamicArray.executor": "Run",
-    "Application.HashTableScratch.executor": "Run",
-    "Application.HashTables.executor": "Run",
-    "Application.IndexesOfSubarraySum.executor": "Run",
-    "Application.KadaneAlgorithm.executor": "Debug",
-    "Application.LinkedLists.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.SecondLargest.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.SimonSays.executor": "Run",
-    "Application.SlidingWindow.executor": "Run",
-    "Application.Stack.executor": "Run",
-    "Application.basicTasks.executor": "Run",
-    "Application.testing.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Misc/java/Practice/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdjacencyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdjacencyMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DLLpractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashTableScratch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashTables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IndexesOfSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadaneAlgorithm.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimonSays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basicTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Misc/java/Practice/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -248,7 +252,39 @@
       <option name="project" value="LOCAL" />
       <updated>1731520735326</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Created an adjacency matrix for a directed graph">
+      <option name="closed" value="true" />
+      <created>1731576407891</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731576407891</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Created an adjacency list for a directed graph">
+      <option name="closed" value="true" />
+      <created>1731658614612</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1731658614612</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Practiced using BFS">
+      <option name="closed" value="true" />
+      <created>1731756530135</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731756530135</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Practiced using DFS using Adjacency list">
+      <option name="closed" value="true" />
+      <created>1731951028240</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731951028240</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +318,11 @@
     <MESSAGE value="Practiced some more arrays" />
     <MESSAGE value="Introduced myself to hash tables" />
     <MESSAGE value="hash table from scratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="hash table from scratch" />
+    <MESSAGE value="Created an adjacency matrix for a directed graph" />
+    <MESSAGE value="Created an adjacency list for a directed graph" />
+    <MESSAGE value="Practiced using BFS" />
+    <MESSAGE value="Practiced using DFS using Adjacency list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced using DFS using Adjacency list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
